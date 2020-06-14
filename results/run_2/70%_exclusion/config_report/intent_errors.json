@@ -1,0 +1,130 @@
+[
+  {
+    "text": "yo",
+    "intent": "greeting",
+    "intent_prediction": {
+      "name": "init_searching",
+      "confidence": 0.26403456926345825
+    }
+  },
+  {
+    "text": "привет",
+    "intent": "greeting",
+    "intent_prediction": {
+      "name": "thanks",
+      "confidence": 0.611700177192688
+    }
+  },
+  {
+    "text": "разработчик, фронтенд, react, redux, REST, омск, можно бех опыта",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "telling_hardskills",
+      "confidence": 0.37237319350242615
+    }
+  },
+  {
+    "text": "разработчик",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "greeting",
+      "confidence": 0.40483173727989197
+    }
+  },
+  {
+    "text": "санкт-петербург",
+    "intent": "telling_location",
+    "intent_prediction": {
+      "name": "telling_experience",
+      "confidence": 0.3202955722808838
+    }
+  },
+  {
+    "text": "Омск",
+    "intent": "telling_location",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.9433640837669373
+    }
+  },
+  {
+    "text": "java, oracle",
+    "intent": "telling_hardskills",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.9143869280815125
+    }
+  },
+  {
+    "text": "и java и C#",
+    "intent": "telling_hardskills",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.9012380242347717
+    }
+  },
+  {
+    "text": "c++, c# ",
+    "intent": "telling_hardskills",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.2910405993461609
+    }
+  },
+  {
+    "text": "1-3 года опыта",
+    "intent": "telling_experience",
+    "intent_prediction": {
+      "name": "telling_max_possible_salary",
+      "confidence": 0.5304752588272095
+    }
+  },
+  {
+    "text": "10",
+    "intent": "telling_experience",
+    "intent_prediction": {
+      "name": "telling_max_possible_salary",
+      "confidence": 0.9541717767715454
+    }
+  },
+  {
+    "text": "до 25 тыс. руб",
+    "intent": "telling_max_possible_salary",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.6805534958839417
+    }
+  },
+  {
+    "text": "знание английского привестсвуется",
+    "intent": "telling_language_needed",
+    "intent_prediction": {
+      "name": "telling_experience",
+      "confidence": 0.562819242477417
+    }
+  },
+  {
+    "text": "поиск",
+    "intent": "init_searching",
+    "intent_prediction": {
+      "name": "init_new_search",
+      "confidence": 0.6076381206512451
+    }
+  },
+  {
+    "text": "мне нужна помощь с поиском сотрудника",
+    "intent": "init_new_search",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.5404425859451294
+    }
+  },
+  {
+    "text": "спасибо, мне подходит",
+    "intent": "thanks",
+    "intent_prediction": {
+      "name": "telling_experience",
+      "confidence": 0.5326859951019287
+    }
+  }
+]

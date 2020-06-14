@@ -1,0 +1,288 @@
+[
+  {
+    "text": "привет, я Маша",
+    "entities": [
+      {
+        "start": 10,
+        "end": 14,
+        "value": "Маша",
+        "entity": "user_name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "разработчик, фронтенд, react, redux, REST, омск, можно бех опыта",
+    "entities": [
+      {
+        "start": 0,
+        "end": 11,
+        "value": "разработчик",
+        "entity": "profession"
+      },
+      {
+        "start": 13,
+        "end": 41,
+        "value": "фронтенд, react, redux, REST",
+        "entity": "hardskills"
+      },
+      {
+        "start": 43,
+        "end": 47,
+        "value": "омск",
+        "entity": "location"
+      },
+      {
+        "start": 49,
+        "end": 64,
+        "value": "можно бех опыта",
+        "entity": "experience"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "profession",
+        "start": 0,
+        "end": 11,
+        "value": "разработчик",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "hardskills",
+        "start": 23,
+        "end": 35,
+        "value": "react, redux",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "location",
+        "start": 43,
+        "end": 47,
+        "value": "омск",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "experience",
+        "start": 59,
+        "end": 64,
+        "value": "опыта",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "дата-саентист ml nlp python pandas cv желателен опыт английский омск можно с релокацией",
+    "entities": [
+      {
+        "start": 0,
+        "end": 13,
+        "value": "дата-саентист",
+        "entity": "profession"
+      },
+      {
+        "start": 14,
+        "end": 37,
+        "value": "ml nlp python pandas cv",
+        "entity": "hardskills"
+      },
+      {
+        "start": 38,
+        "end": 52,
+        "value": "желателен опыт",
+        "entity": "experience"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "profession",
+        "start": 0,
+        "end": 13,
+        "value": "дата-саентист",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "hardskills",
+        "start": 14,
+        "end": 34,
+        "value": "ml nlp python pandas",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "location",
+        "start": 64,
+        "end": 68,
+        "value": "омск",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "language_level",
+        "start": 77,
+        "end": 87,
+        "value": "релокацией",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "java разработчик на самом то деле",
+    "entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "value": "java",
+        "entity": "hardskills"
+      },
+      {
+        "start": 5,
+        "end": 16,
+        "value": "разработчик",
+        "entity": "profession"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "hardskills",
+        "start": 0,
+        "end": 16,
+        "value": "java разработчик",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "ищу программиста python django в Москве",
+    "entities": [
+      {
+        "start": 4,
+        "end": 16,
+        "value": "программиста",
+        "entity": "profession"
+      },
+      {
+        "start": 17,
+        "end": 30,
+        "value": "python django",
+        "entity": "hardskills"
+      },
+      {
+        "start": 33,
+        "end": 39,
+        "value": "Москве",
+        "entity": "location"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "profession",
+        "start": 4,
+        "end": 16,
+        "value": "программиста",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "hardskills",
+        "start": 17,
+        "end": 30,
+        "value": "python django",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "а что если поискать с опытом не только в java но и C",
+    "entities": [
+      {
+        "start": 41,
+        "end": 45,
+        "value": "java",
+        "entity": "hardskills"
+      },
+      {
+        "start": 51,
+        "end": 52,
+        "value": "C",
+        "entity": "hardskills"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "hardskills",
+        "start": 41,
+        "end": 45,
+        "value": "java",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "опыт не не обязетален",
+    "entities": [
+      {
+        "start": 0,
+        "end": 21,
+        "value": "опыт не не обязетален",
+        "entity": "experience"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "experience",
+        "start": 0,
+        "end": 10,
+        "value": "опыт не не",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "english, advanced",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "value": "english",
+        "entity": "language"
+      },
+      {
+        "start": 9,
+        "end": 17,
+        "value": "advanced",
+        "entity": "language_level"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "знание английского на уровне upper intermediate",
+    "entities": [
+      {
+        "start": 0,
+        "end": 18,
+        "value": "знание английского",
+        "entity": "language"
+      },
+      {
+        "start": 29,
+        "end": 47,
+        "value": "upper intermediate",
+        "entity": "language_level"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "language",
+        "start": 0,
+        "end": 18,
+        "value": "знание английского",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "language_level",
+        "start": 35,
+        "end": 47,
+        "value": "intermediate",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  }
+]

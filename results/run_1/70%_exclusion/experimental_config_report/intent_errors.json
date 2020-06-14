@@ -1,0 +1,90 @@
+[
+  {
+    "text": "привет, я Маша",
+    "intent": "greeting",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.2056763470172882
+    }
+  },
+  {
+    "text": "омск",
+    "intent": "telling_location",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.18032148480415344
+    }
+  },
+  {
+    "text": "Java",
+    "intent": "telling_hardskills",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.9293068051338196
+    }
+  },
+  {
+    "text": "а что если поискать с опытом не только в java но и C",
+    "intent": "telling_hardskills",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.29959580302238464
+    }
+  },
+  {
+    "text": "python, django, djangoREST, mongo DB",
+    "intent": "telling_hardskills",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.8364875912666321
+    }
+  },
+  {
+    "text": "программист java москва 5 лет опыта",
+    "intent": "telling_experience",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.9869840741157532
+    }
+  },
+  {
+    "text": "можно опыта",
+    "intent": "telling_experience",
+    "intent_prediction": {
+      "name": "init_new_search",
+      "confidence": 0.304381400346756
+    }
+  },
+  {
+    "text": "english, advanced",
+    "intent": "telling_language_needed",
+    "intent_prediction": {
+      "name": "telling_experience",
+      "confidence": 0.34421899914741516
+    }
+  },
+  {
+    "text": "знание английского на уровне upper intermediate",
+    "intent": "telling_language_needed",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.324603408575058
+    }
+  },
+  {
+    "text": "покажи варианты",
+    "intent": "init_searching",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.20642797648906708
+    }
+  },
+  {
+    "text": "подробно",
+    "intent": "detaieled_search",
+    "intent_prediction": {
+      "name": "telling_max_possible_salary",
+      "confidence": 0.1352592557668686
+    }
+  }
+]

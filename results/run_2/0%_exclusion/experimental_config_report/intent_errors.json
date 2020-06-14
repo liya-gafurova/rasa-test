@@ -1,0 +1,66 @@
+[
+  {
+    "text": "yo",
+    "intent": "greeting",
+    "intent_prediction": {
+      "name": "telling_location",
+      "confidence": 0.2445368617773056
+    }
+  },
+  {
+    "text": "привет",
+    "intent": "greeting",
+    "intent_prediction": {
+      "name": "thanks",
+      "confidence": 0.27282994985580444
+    }
+  },
+  {
+    "text": "и java и C#",
+    "intent": "telling_hardskills",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.6733539700508118
+    }
+  },
+  {
+    "text": "c++, c# ",
+    "intent": "telling_hardskills",
+    "intent_prediction": {
+      "name": "telling_location",
+      "confidence": 0.15118440985679626
+    }
+  },
+  {
+    "text": "10",
+    "intent": "telling_experience",
+    "intent_prediction": {
+      "name": "telling_location",
+      "confidence": 0.234113410115242
+    }
+  },
+  {
+    "text": "знание английского привестсвуется",
+    "intent": "telling_language_needed",
+    "intent_prediction": {
+      "name": "telling_location",
+      "confidence": 0.2035605013370514
+    }
+  },
+  {
+    "text": "поиск",
+    "intent": "init_searching",
+    "intent_prediction": {
+      "name": "detaieled_search",
+      "confidence": 0.37265923619270325
+    }
+  },
+  {
+    "text": "мне нужна помощь с поиском сотрудника",
+    "intent": "init_new_search",
+    "intent_prediction": {
+      "name": "telling_experience",
+      "confidence": 0.19003772735595703
+    }
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "text": "дата-саентист ml nlp python pandas cv желателен опыт английский омск можно с релокацией",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "telling_language_needed",
+      "confidence": 0.4250662326812744
+    }
+  },
+  {
+    "text": "омск",
+    "intent": "telling_location",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.9422838687896729
+    }
+  },
+  {
+    "text": "Омск",
+    "intent": "telling_location",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.9548944234848022
+    }
+  },
+  {
+    "text": "english, advanced",
+    "intent": "telling_language_needed",
+    "intent_prediction": {
+      "name": "telling_hardskills",
+      "confidence": 0.9571322798728943
+    }
+  },
+  {
+    "text": "найти",
+    "intent": "init_searching",
+    "intent_prediction": {
+      "name": "greeting",
+      "confidence": 0.4175044298171997
+    }
+  },
+  {
+    "text": "мне нужен новый специалист",
+    "intent": "init_new_search",
+    "intent_prediction": {
+      "name": "init_searching",
+      "confidence": 0.3169926404953003
+    }
+  }
+]

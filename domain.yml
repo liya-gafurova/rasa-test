@@ -1,0 +1,54 @@
+intents:
+  - init_searching
+  - telling_experience
+  - greeting
+  - inform
+  - detaieled_search
+  - thanks
+  - telling_location
+  - telling_hardskills
+  - ask_searching_params
+  - telling_language_needed
+  - telling_max_possible_salary
+  - init_new_search
+  - telling_profession
+slots:
+  profession:
+    type: text
+  experience:
+    type: text
+  hardskills:
+    type: text
+  location:
+    type: text
+
+actions:
+  - utter_greeting
+  - utter_bot_info
+  - respond_inform
+  - utter_show_results
+  - utter_thanks
+  - action_get_search_parametres
+
+entities:
+  - profession
+  - experience
+  - hardskills
+  - location
+  - language
+  - education
+
+templates:
+  utter_greeting:
+    - text: "Привет!"
+  utter_bot_info:
+    - text: "Меня зовут Аня. Я помогу сделать первичный скрининг резюме по интересующей тебя вакансии. Просто введи описание специалиста в удобной тебе форме, а остальное я возьму на себя)"
+  utter_show_results:
+    - text: "Будем искать по параметрам profession = {profession}, experience = {experience}, hardskills = {hardskills}, location = {location}: ~~~~~~"
+  utter_thanks:
+    - text: "Рада была помочь!"
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

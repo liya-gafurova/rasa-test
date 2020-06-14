@@ -1,0 +1,34 @@
+[
+  {
+    "text": "привет, я Маша",
+    "intent": "greeting",
+    "intent_prediction": {
+      "name": "thanks",
+      "confidence": 0.16063781082630157
+    }
+  },
+  {
+    "text": "привет",
+    "intent": "greeting",
+    "intent_prediction": {
+      "name": "init_searching",
+      "confidence": 0.24336598813533783
+    }
+  },
+  {
+    "text": "english, advanced",
+    "intent": "telling_language_needed",
+    "intent_prediction": {
+      "name": "init_searching",
+      "confidence": 0.1680135875940323
+    }
+  },
+  {
+    "text": "спасибо",
+    "intent": "thanks",
+    "intent_prediction": {
+      "name": "telling_location",
+      "confidence": 0.2781263291835785
+    }
+  }
+]

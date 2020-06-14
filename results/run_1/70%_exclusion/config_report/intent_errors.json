@@ -1,0 +1,106 @@
+[
+  {
+    "text": "привет, я Маша",
+    "intent": "greeting",
+    "intent_prediction": {
+      "name": "init_new_search",
+      "confidence": 0.20804166793823242
+    }
+  },
+  {
+    "text": "дата-саентист ml nlp python pandas cv желателен опыт английский омск можно с релокацией",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "telling_max_possible_salary",
+      "confidence": 0.24483899772167206
+    }
+  },
+  {
+    "text": "омск",
+    "intent": "telling_location",
+    "intent_prediction": {
+      "name": "ask_url",
+      "confidence": 0.24374017119407654
+    }
+  },
+  {
+    "text": "Омск",
+    "intent": "telling_location",
+    "intent_prediction": {
+      "name": "ask_url",
+      "confidence": 0.1639530211687088
+    }
+  },
+  {
+    "text": "Java",
+    "intent": "telling_hardskills",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.9918278455734253
+    }
+  },
+  {
+    "text": "а что если поискать с опытом не только в java но и C",
+    "intent": "telling_hardskills",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.42125239968299866
+    }
+  },
+  {
+    "text": "python, django, djangoREST, mongo DB",
+    "intent": "telling_hardskills",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.5602400302886963
+    }
+  },
+  {
+    "text": "программист java москва 5 лет опыта",
+    "intent": "telling_experience",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.997421383857727
+    }
+  },
+  {
+    "text": "можно опыта",
+    "intent": "telling_experience",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.4779241383075714
+    }
+  },
+  {
+    "text": "опыт не не обязетален",
+    "intent": "telling_experience",
+    "intent_prediction": {
+      "name": "telling_max_possible_salary",
+      "confidence": 0.23064053058624268
+    }
+  },
+  {
+    "text": "english, advanced",
+    "intent": "telling_language_needed",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.37985655665397644
+    }
+  },
+  {
+    "text": "найти",
+    "intent": "init_searching",
+    "intent_prediction": {
+      "name": "greeting",
+      "confidence": 0.3147381842136383
+    }
+  },
+  {
+    "text": "подробно",
+    "intent": "detaieled_search",
+    "intent_prediction": {
+      "name": "greeting",
+      "confidence": 0.6165579557418823
+    }
+  }
+]

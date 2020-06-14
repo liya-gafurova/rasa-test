@@ -1,0 +1,58 @@
+[
+  {
+    "text": "уже здоровались",
+    "intent": "greeting",
+    "intent_prediction": {
+      "name": "thanks",
+      "confidence": 0.5680091381072998
+    }
+  },
+  {
+    "text": "привет, я хочу найти сотрудника",
+    "intent": "greeting",
+    "intent_prediction": {
+      "name": "init_new_search",
+      "confidence": 0.14887961745262146
+    }
+  },
+  {
+    "text": "Нужен только в Омске",
+    "intent": "telling_location",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.4255625009536743
+    }
+  },
+  {
+    "text": "программист java москва 5 лет  опыта",
+    "intent": "telling_experience",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.6639000177383423
+    }
+  },
+  {
+    "text": "найти",
+    "intent": "init_searching",
+    "intent_prediction": {
+      "name": "thanks",
+      "confidence": 0.2035670429468155
+    }
+  },
+  {
+    "text": "мне нужна помощь с поиском сотрудника",
+    "intent": "init_new_search",
+    "intent_prediction": {
+      "name": "telling_experience",
+      "confidence": 0.2500138282775879
+    }
+  },
+  {
+    "text": "спс",
+    "intent": "thanks",
+    "intent_prediction": {
+      "name": "ask_url",
+      "confidence": 0.3046818673610687
+    }
+  }
+]

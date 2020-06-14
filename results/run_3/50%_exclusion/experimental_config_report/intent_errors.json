@@ -1,0 +1,98 @@
+[
+  {
+    "text": "уже здоровались",
+    "intent": "greeting",
+    "intent_prediction": {
+      "name": "telling_experience",
+      "confidence": 0.5505879521369934
+    }
+  },
+  {
+    "text": "привет, я хочу найти сотрудника",
+    "intent": "greeting",
+    "intent_prediction": {
+      "name": "init_new_search",
+      "confidence": 0.21715258061885834
+    }
+  },
+  {
+    "text": "Нужен только в Омске",
+    "intent": "telling_location",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.40251272916793823
+    }
+  },
+  {
+    "text": "PHP есть",
+    "intent": "telling_hardskills",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.6876758933067322
+    }
+  },
+  {
+    "text": "программист java москва 5 лет  опыта",
+    "intent": "telling_experience",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.9920081496238708
+    }
+  },
+  {
+    "text": "english, advanced",
+    "intent": "telling_language_needed",
+    "intent_prediction": {
+      "name": "telling_hardskills",
+      "confidence": 0.3328089714050293
+    }
+  },
+  {
+    "text": "показать",
+    "intent": "init_searching",
+    "intent_prediction": {
+      "name": "detaieled_search",
+      "confidence": 0.28975915908813477
+    }
+  },
+  {
+    "text": "найти",
+    "intent": "init_searching",
+    "intent_prediction": {
+      "name": "greeting",
+      "confidence": 0.3452981412410736
+    }
+  },
+  {
+    "text": "мне нужна помощь с поиском сотрудника",
+    "intent": "init_new_search",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.2706115245819092
+    }
+  },
+  {
+    "text": "подробно",
+    "intent": "detaieled_search",
+    "intent_prediction": {
+      "name": "init_new_search",
+      "confidence": 0.1781662106513977
+    }
+  },
+  {
+    "text": "спс",
+    "intent": "thanks",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.13252389430999756
+    }
+  },
+  {
+    "text": "покажи поисковый урл",
+    "intent": "ask_url",
+    "intent_prediction": {
+      "name": "detaieled_search",
+      "confidence": 0.19913332164287567
+    }
+  }
+]

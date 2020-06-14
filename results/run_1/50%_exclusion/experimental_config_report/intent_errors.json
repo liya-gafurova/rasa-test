@@ -1,0 +1,42 @@
+[
+  {
+    "text": "привет, я Маша",
+    "intent": "greeting",
+    "intent_prediction": {
+      "name": "telling_hardskills",
+      "confidence": 0.3361794650554657
+    }
+  },
+  {
+    "text": "привет",
+    "intent": "greeting",
+    "intent_prediction": {
+      "name": "init_searching",
+      "confidence": 0.2694353461265564
+    }
+  },
+  {
+    "text": "Java",
+    "intent": "telling_hardskills",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.5737097859382629
+    }
+  },
+  {
+    "text": "python, django, djangoREST, mongo DB",
+    "intent": "telling_hardskills",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.4871920645236969
+    }
+  },
+  {
+    "text": "спасибо",
+    "intent": "thanks",
+    "intent_prediction": {
+      "name": "init_searching",
+      "confidence": 0.264313668012619
+    }
+  }
+]

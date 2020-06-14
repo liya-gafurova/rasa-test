@@ -1,0 +1,66 @@
+[
+  {
+    "text": "yo",
+    "intent": "greeting",
+    "intent_prediction": {
+      "name": "telling_hardskills",
+      "confidence": 0.47032931447029114
+    }
+  },
+  {
+    "text": "програмист java москва 5  опыта",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "telling_experience",
+      "confidence": 0.9878457188606262
+    }
+  },
+  {
+    "text": "санкт-петербург",
+    "intent": "telling_location",
+    "intent_prediction": {
+      "name": "telling_max_possible_salary",
+      "confidence": 0.20804426074028015
+    }
+  },
+  {
+    "text": "java, oracle",
+    "intent": "telling_hardskills",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.9959197640419006
+    }
+  },
+  {
+    "text": "c++, c# ",
+    "intent": "telling_hardskills",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.9976518750190735
+    }
+  },
+  {
+    "text": "10",
+    "intent": "telling_experience",
+    "intent_prediction": {
+      "name": "telling_max_possible_salary",
+      "confidence": 0.7552798986434937
+    }
+  },
+  {
+    "text": "поиск",
+    "intent": "init_searching",
+    "intent_prediction": {
+      "name": "ask_url",
+      "confidence": 0.32306140661239624
+    }
+  },
+  {
+    "text": "мне нужна помощь с поиском сотрудника",
+    "intent": "init_new_search",
+    "intent_prediction": {
+      "name": "greeting",
+      "confidence": 0.33028313517570496
+    }
+  }
+]

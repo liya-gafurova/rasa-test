@@ -1,0 +1,595 @@
+[
+  {
+    "text": "Только в Омске C#",
+    "entities": [
+      {
+        "start": 9,
+        "end": 14,
+        "value": "Омске",
+        "entity": "location"
+      },
+      {
+        "start": 14,
+        "end": 17,
+        "value": " C#",
+        "entity": "hardskills"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "location",
+        "start": 9,
+        "end": 14,
+        "value": "Омске",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "разработчик, фронтенд, react, redux, REST, омск, можно бех опыта",
+    "entities": [
+      {
+        "start": 0,
+        "end": 11,
+        "value": "разработчик",
+        "entity": "profession"
+      },
+      {
+        "start": 13,
+        "end": 41,
+        "value": "фронтенд, react, redux, REST",
+        "entity": "hardskills"
+      },
+      {
+        "start": 43,
+        "end": 47,
+        "value": "омск",
+        "entity": "location"
+      },
+      {
+        "start": 49,
+        "end": 64,
+        "value": "можно бех опыта",
+        "entity": "experience"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "profession",
+        "start": 0,
+        "end": 11,
+        "value": "разработчик",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "hardskills",
+        "start": 37,
+        "end": 41,
+        "value": "REST",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "location",
+        "start": 43,
+        "end": 47,
+        "value": "омск",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "experience",
+        "start": 49,
+        "end": 54,
+        "value": "можно",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "experience",
+        "start": 59,
+        "end": 64,
+        "value": "опыта",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "ищу программиста java омске",
+    "entities": [
+      {
+        "start": 4,
+        "end": 16,
+        "value": "программиста",
+        "entity": "profession"
+      },
+      {
+        "start": 17,
+        "end": 21,
+        "value": "java",
+        "entity": "hardskills"
+      },
+      {
+        "start": 22,
+        "end": 27,
+        "value": "омске",
+        "entity": "location"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "profession",
+        "start": 4,
+        "end": 16,
+        "value": "программиста",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "hardskills",
+        "start": 17,
+        "end": 21,
+        "value": "java",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "веб-разработчик, от года опыта, омск, java",
+    "entities": [
+      {
+        "start": 0,
+        "end": 15,
+        "value": "веб-разработчик",
+        "entity": "profession"
+      },
+      {
+        "start": 17,
+        "end": 30,
+        "value": "от года опыта",
+        "entity": "experience"
+      },
+      {
+        "start": 32,
+        "end": 36,
+        "value": "омск",
+        "entity": "location"
+      },
+      {
+        "start": 38,
+        "end": 42,
+        "value": "java",
+        "entity": "hardskills"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "profession",
+        "start": 0,
+        "end": 15,
+        "value": "веб-разработчик",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "experience",
+        "start": 25,
+        "end": 30,
+        "value": "опыта",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "location",
+        "start": 32,
+        "end": 36,
+        "value": "омск",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "hardskills",
+        "start": 38,
+        "end": 42,
+        "value": "java",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "программист java oracle москва 5 лет опыта",
+    "entities": [
+      {
+        "start": 0,
+        "end": 11,
+        "value": "программист",
+        "entity": "profession"
+      },
+      {
+        "start": 12,
+        "end": 23,
+        "value": "java oracle",
+        "entity": "hardskills"
+      },
+      {
+        "start": 24,
+        "end": 30,
+        "value": "москва",
+        "entity": "location"
+      },
+      {
+        "start": 31,
+        "end": 42,
+        "value": "5 лет опыта",
+        "entity": "experience"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "profession",
+        "start": 0,
+        "end": 11,
+        "value": "программист",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "hardskills",
+        "start": 12,
+        "end": 23,
+        "value": "java oracle",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "location",
+        "start": 24,
+        "end": 30,
+        "value": "москва",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "max_salary_for_position",
+        "start": 31,
+        "end": 32,
+        "value": "5",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "experience",
+        "start": 37,
+        "end": 42,
+        "value": "опыта",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "программист  java oracle  москва 5 лет опыта",
+    "entities": [
+      {
+        "start": 0,
+        "end": 11,
+        "value": "программист",
+        "entity": "profession"
+      },
+      {
+        "start": 13,
+        "end": 24,
+        "value": "java oracle",
+        "entity": "hardskills"
+      },
+      {
+        "start": 26,
+        "end": 32,
+        "value": "москва",
+        "entity": "location"
+      },
+      {
+        "start": 33,
+        "end": 44,
+        "value": "5 лет опыта",
+        "entity": "experience"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "profession",
+        "start": 0,
+        "end": 11,
+        "value": "программист",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "hardskills",
+        "start": 13,
+        "end": 24,
+        "value": "java oracle",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "location",
+        "start": 26,
+        "end": 32,
+        "value": "москва",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "max_salary_for_position",
+        "start": 33,
+        "end": 34,
+        "value": "5",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "experience",
+        "start": 39,
+        "end": 44,
+        "value": "опыта",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "PHP есть",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "hardskills",
+        "start": 0,
+        "end": 3,
+        "value": "PHP",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "python, ml, pandas, математика",
+    "entities": [
+      {
+        "start": 0,
+        "end": 30,
+        "value": "python, ml, pandas, математика",
+        "entity": "hardskills"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "hardskills",
+        "start": 0,
+        "end": 6,
+        "value": "python",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "1-3 года опыта",
+    "entities": [
+      {
+        "start": 0,
+        "end": 14,
+        "value": "1-3 года опыта",
+        "entity": "experience"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "experience",
+        "start": 0,
+        "end": 3,
+        "value": "1-3",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "experience",
+        "start": 9,
+        "end": 14,
+        "value": "опыта",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "программист java москва 5 лет  опыта",
+    "entities": [
+      {
+        "start": 0,
+        "end": 11,
+        "value": "программист",
+        "entity": "profession"
+      },
+      {
+        "start": 12,
+        "end": 16,
+        "value": "java",
+        "entity": "hardskills"
+      },
+      {
+        "start": 17,
+        "end": 23,
+        "value": "москва",
+        "entity": "location"
+      },
+      {
+        "start": 24,
+        "end": 36,
+        "value": "5 лет  опыта",
+        "entity": "experience"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "profession",
+        "start": 0,
+        "end": 11,
+        "value": "программист",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "hardskills",
+        "start": 12,
+        "end": 16,
+        "value": "java",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "location",
+        "start": 17,
+        "end": 23,
+        "value": "москва",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "max_salary_for_position",
+        "start": 24,
+        "end": 25,
+        "value": "5",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "experience",
+        "start": 31,
+        "end": 36,
+        "value": "опыта",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "3+ лет опыта",
+    "entities": [
+      {
+        "start": 0,
+        "end": 12,
+        "value": "3+ лет опыта",
+        "entity": "experience"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "experience",
+        "start": 0,
+        "end": 1,
+        "value": "3",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "experience",
+        "start": 7,
+        "end": 12,
+        "value": "опыта",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "5 лет опыта",
+    "entities": [
+      {
+        "start": 0,
+        "end": 11,
+        "value": "5 лет опыта",
+        "entity": "experience"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "experience",
+        "start": 0,
+        "end": 1,
+        "value": "5",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "experience",
+        "start": 6,
+        "end": 11,
+        "value": "опыта",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "более 25 тыс. руб",
+    "entities": [
+      {
+        "start": 0,
+        "end": 17,
+        "value": "более 25 тыс. руб",
+        "entity": "max_salary_for_position"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "max_salary_for_position",
+        "start": 6,
+        "end": 17,
+        "value": "25 тыс. руб",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "25-50 тыс руб",
+    "entities": [
+      {
+        "start": 0,
+        "end": 13,
+        "value": "25-50 тыс руб",
+        "entity": "max_salary_for_position"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "experience",
+        "start": 0,
+        "end": 5,
+        "value": "25-50",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "max_salary_for_position",
+        "start": 6,
+        "end": 13,
+        "value": "тыс руб",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "english, advanced",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "value": "english",
+        "entity": "language"
+      },
+      {
+        "start": 9,
+        "end": 17,
+        "value": "advanced",
+        "entity": "language_level"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "английский язык желателен",
+    "entities": [
+      {
+        "start": 0,
+        "end": 15,
+        "value": "английский язык",
+        "entity": "language"
+      },
+      {
+        "start": 16,
+        "end": 25,
+        "value": "желателен",
+        "entity": "language_level"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "language",
+        "start": 0,
+        "end": 10,
+        "value": "английский",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  }
+]

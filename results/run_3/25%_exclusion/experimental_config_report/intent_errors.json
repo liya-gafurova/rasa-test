@@ -1,0 +1,82 @@
+[
+  {
+    "text": "уже здоровались",
+    "intent": "greeting",
+    "intent_prediction": {
+      "name": "thanks",
+      "confidence": 0.20735540986061096
+    }
+  },
+  {
+    "text": "привет, я хочу найти сотрудника",
+    "intent": "greeting",
+    "intent_prediction": {
+      "name": "thanks",
+      "confidence": 0.18601995706558228
+    }
+  },
+  {
+    "text": "Нужен только в Омске",
+    "intent": "telling_location",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.19774875044822693
+    }
+  },
+  {
+    "text": "PHP есть",
+    "intent": "telling_hardskills",
+    "intent_prediction": {
+      "name": "init_searching",
+      "confidence": 0.18602287769317627
+    }
+  },
+  {
+    "text": "python, ml, pandas, математика",
+    "intent": "telling_hardskills",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.3004746735095978
+    }
+  },
+  {
+    "text": "программист java москва 5 лет  опыта",
+    "intent": "telling_experience",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.5272295475006104
+    }
+  },
+  {
+    "text": "english, advanced",
+    "intent": "telling_language_needed",
+    "intent_prediction": {
+      "name": "telling_hardskills",
+      "confidence": 0.23069708049297333
+    }
+  },
+  {
+    "text": "английский язык желателен",
+    "intent": "telling_language_needed",
+    "intent_prediction": {
+      "name": "telling_experience",
+      "confidence": 0.16172409057617188
+    }
+  },
+  {
+    "text": "мне нужна помощь с поиском сотрудника",
+    "intent": "init_new_search",
+    "intent_prediction": {
+      "name": "telling_language_needed",
+      "confidence": 0.13385750353336334
+    }
+  },
+  {
+    "text": "спс",
+    "intent": "thanks",
+    "intent_prediction": {
+      "name": "ask_url",
+      "confidence": 0.1570570468902588
+    }
+  }
+]

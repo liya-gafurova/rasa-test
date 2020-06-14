@@ -1,0 +1,90 @@
+[
+  {
+    "text": "yo",
+    "intent": "greeting",
+    "intent_prediction": {
+      "name": "telling_hardskills",
+      "confidence": 0.5832787752151489
+    }
+  },
+  {
+    "text": "разработчик, фронтенд, react, redux, REST, омск, можно бех опыта",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "telling_experience",
+      "confidence": 0.3917063772678375
+    }
+  },
+  {
+    "text": "разработчик",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "detaieled_search",
+      "confidence": 0.2963518500328064
+    }
+  },
+  {
+    "text": "санкт-петербург",
+    "intent": "telling_location",
+    "intent_prediction": {
+      "name": "ask_url",
+      "confidence": 0.2768784165382385
+    }
+  },
+  {
+    "text": "java, oracle",
+    "intent": "telling_hardskills",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.9939344525337219
+    }
+  },
+  {
+    "text": "и java и C#",
+    "intent": "telling_hardskills",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.9408854842185974
+    }
+  },
+  {
+    "text": "10",
+    "intent": "telling_experience",
+    "intent_prediction": {
+      "name": "telling_max_possible_salary",
+      "confidence": 0.9681825041770935
+    }
+  },
+  {
+    "text": "знание английского привестсвуется",
+    "intent": "telling_language_needed",
+    "intent_prediction": {
+      "name": "telling_experience",
+      "confidence": 0.19915446639060974
+    }
+  },
+  {
+    "text": "поиск",
+    "intent": "init_searching",
+    "intent_prediction": {
+      "name": "init_new_search",
+      "confidence": 0.6556578874588013
+    }
+  },
+  {
+    "text": "мне нужна помощь с поиском сотрудника",
+    "intent": "init_new_search",
+    "intent_prediction": {
+      "name": "telling_experience",
+      "confidence": 0.337058961391449
+    }
+  },
+  {
+    "text": "спасибо, мне подходит",
+    "intent": "thanks",
+    "intent_prediction": {
+      "name": "detaieled_search",
+      "confidence": 0.35650351643562317
+    }
+  }
+]

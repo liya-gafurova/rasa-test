@@ -1,0 +1,74 @@
+[
+  {
+    "text": "привет, я хочу найти сотрудника",
+    "intent": "greeting",
+    "intent_prediction": {
+      "name": "init_new_search",
+      "confidence": 0.8553127646446228
+    }
+  },
+  {
+    "text": "Только в Омске C#",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "telling_hardskills",
+      "confidence": 0.710556149482727
+    }
+  },
+  {
+    "text": "Нужен только в Омске",
+    "intent": "telling_location",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.42940691113471985
+    }
+  },
+  {
+    "text": "python, ml, pandas, математика",
+    "intent": "telling_hardskills",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.5895236730575562
+    }
+  },
+  {
+    "text": "программист java москва 5 лет  опыта",
+    "intent": "telling_experience",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.868747353553772
+    }
+  },
+  {
+    "text": "более 25 тыс. руб",
+    "intent": "telling_max_possible_salary",
+    "intent_prediction": {
+      "name": "telling_experience",
+      "confidence": 0.615850567817688
+    }
+  },
+  {
+    "text": "english, advanced",
+    "intent": "telling_language_needed",
+    "intent_prediction": {
+      "name": "telling_hardskills",
+      "confidence": 0.9412699341773987
+    }
+  },
+  {
+    "text": "английский язык желателен",
+    "intent": "telling_language_needed",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.7012696862220764
+    }
+  },
+  {
+    "text": "спс",
+    "intent": "thanks",
+    "intent_prediction": {
+      "name": "telling_max_possible_salary",
+      "confidence": 0.20774133503437042
+    }
+  }
+]

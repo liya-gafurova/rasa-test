@@ -1,0 +1,138 @@
+[
+  {
+    "text": "yo",
+    "intent": "greeting",
+    "intent_prediction": {
+      "name": "init_searching",
+      "confidence": 0.5496317148208618
+    }
+  },
+  {
+    "text": "привет",
+    "intent": "greeting",
+    "intent_prediction": {
+      "name": "init_new_search",
+      "confidence": 0.27126431465148926
+    }
+  },
+  {
+    "text": "разработчик",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "detaieled_search",
+      "confidence": 0.41328486800193787
+    }
+  },
+  {
+    "text": "санкт-петербург",
+    "intent": "telling_location",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.569542407989502
+    }
+  },
+  {
+    "text": "Омск",
+    "intent": "telling_location",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.38999348878860474
+    }
+  },
+  {
+    "text": "java, oracle",
+    "intent": "telling_hardskills",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.9163433909416199
+    }
+  },
+  {
+    "text": "10",
+    "intent": "telling_experience",
+    "intent_prediction": {
+      "name": "telling_max_possible_salary",
+      "confidence": 0.5191788673400879
+    }
+  },
+  {
+    "text": "25-50 тыс руб",
+    "intent": "telling_max_possible_salary",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.6523006558418274
+    }
+  },
+  {
+    "text": "до 25 тыс. руб",
+    "intent": "telling_max_possible_salary",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.42499324679374695
+    }
+  },
+  {
+    "text": "английский в совершенстве",
+    "intent": "telling_language_needed",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.2493879646062851
+    }
+  },
+  {
+    "text": "знание английского привестсвуется",
+    "intent": "telling_language_needed",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.2930166721343994
+    }
+  },
+  {
+    "text": "найди",
+    "intent": "init_searching",
+    "intent_prediction": {
+      "name": "ask_url",
+      "confidence": 0.18025781214237213
+    }
+  },
+  {
+    "text": "поиск",
+    "intent": "init_searching",
+    "intent_prediction": {
+      "name": "init_new_search",
+      "confidence": 0.6804066300392151
+    }
+  },
+  {
+    "text": "мне нужна помощь с поиском сотрудника",
+    "intent": "init_new_search",
+    "intent_prediction": {
+      "name": "telling_experience",
+      "confidence": 0.8407668471336365
+    }
+  },
+  {
+    "text": "детализированно",
+    "intent": "detaieled_search",
+    "intent_prediction": {
+      "name": "telling_location",
+      "confidence": 0.1448337584733963
+    }
+  },
+  {
+    "text": "провести детализированный поиск",
+    "intent": "detaieled_search",
+    "intent_prediction": {
+      "name": "telling_experience",
+      "confidence": 0.2055239975452423
+    }
+  },
+  {
+    "text": "покажи поисковый урл",
+    "intent": "ask_url",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.32882052659988403
+    }
+  }
+]

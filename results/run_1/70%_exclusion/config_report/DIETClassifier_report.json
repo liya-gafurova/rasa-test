@@ -1,0 +1,68 @@
+{
+  "location": {
+    "precision": 1.0,
+    "recall": 0.42857142857142855,
+    "f1-score": 0.6,
+    "support": 7
+  },
+  "language": {
+    "precision": 0.5,
+    "recall": 0.3333333333333333,
+    "f1-score": 0.4,
+    "support": 3
+  },
+  "user_name": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 1
+  },
+  "max_salary_for_position": {
+    "precision": 1.0,
+    "recall": 0.42857142857142855,
+    "f1-score": 0.6,
+    "support": 7
+  },
+  "language_level": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 3
+  },
+  "experience": {
+    "precision": 0.75,
+    "recall": 0.6,
+    "f1-score": 0.6666666666666665,
+    "support": 25
+  },
+  "profession": {
+    "precision": 1.0,
+    "recall": 0.5,
+    "f1-score": 0.6666666666666666,
+    "support": 8
+  },
+  "hardskills": {
+    "precision": 1.0,
+    "recall": 0.3076923076923077,
+    "f1-score": 0.47058823529411764,
+    "support": 26
+  },
+  "micro avg": {
+    "precision": 0.8292682926829268,
+    "recall": 0.425,
+    "f1-score": 0.5619834710743802,
+    "support": 80
+  },
+  "macro avg": {
+    "precision": 0.65625,
+    "recall": 0.3247710622710622,
+    "f1-score": 0.42549019607843136,
+    "support": 80
+  },
+  "weighted avg": {
+    "precision": 0.853125,
+    "recall": 0.425,
+    "f1-score": 0.5479411764705883,
+    "support": 80
+  }
+}

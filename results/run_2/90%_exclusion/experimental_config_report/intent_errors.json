@@ -1,0 +1,146 @@
+[
+  {
+    "text": "yo",
+    "intent": "greeting",
+    "intent_prediction": {
+      "name": "telling_hardskills",
+      "confidence": 0.34883907437324524
+    }
+  },
+  {
+    "text": "программист java oracle москва 15 лет опыта",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "telling_location",
+      "confidence": 0.1758882701396942
+    }
+  },
+  {
+    "text": "программист java oracle москва без опыта",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "telling_location",
+      "confidence": 0.21646901965141296
+    }
+  },
+  {
+    "text": "програмист java москва 5  опыта",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "telling_experience",
+      "confidence": 0.21665960550308228
+    }
+  },
+  {
+    "text": "разработчик",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "thanks",
+      "confidence": 0.6219857335090637
+    }
+  },
+  {
+    "text": "программист java oracle москва  5 лет",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "telling_hardskills",
+      "confidence": 0.16979019343852997
+    }
+  },
+  {
+    "text": "санкт-петербург",
+    "intent": "telling_location",
+    "intent_prediction": {
+      "name": "detaieled_search",
+      "confidence": 0.28600892424583435
+    }
+  },
+  {
+    "text": "Омск",
+    "intent": "telling_location",
+    "intent_prediction": {
+      "name": "telling_language_needed",
+      "confidence": 0.2348596453666687
+    }
+  },
+  {
+    "text": "java, oracle",
+    "intent": "telling_hardskills",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.1939443200826645
+    }
+  },
+  {
+    "text": "c++, c# ",
+    "intent": "telling_hardskills",
+    "intent_prediction": {
+      "name": "telling_max_possible_salary",
+      "confidence": 0.3475241959095001
+    }
+  },
+  {
+    "text": "10",
+    "intent": "telling_experience",
+    "intent_prediction": {
+      "name": "telling_max_possible_salary",
+      "confidence": 0.45166105031967163
+    }
+  },
+  {
+    "text": "25-50 тыс руб",
+    "intent": "telling_max_possible_salary",
+    "intent_prediction": {
+      "name": "init_new_search",
+      "confidence": 0.343727707862854
+    }
+  },
+  {
+    "text": "до 25 тыс. руб",
+    "intent": "telling_max_possible_salary",
+    "intent_prediction": {
+      "name": "telling_experience",
+      "confidence": 0.3111509382724762
+    }
+  },
+  {
+    "text": "знание английского привестсвуется",
+    "intent": "telling_language_needed",
+    "intent_prediction": {
+      "name": "telling_experience",
+      "confidence": 0.21446493268013
+    }
+  },
+  {
+    "text": "найди",
+    "intent": "init_searching",
+    "intent_prediction": {
+      "name": "telling_max_possible_salary",
+      "confidence": 0.16403409838676453
+    }
+  },
+  {
+    "text": "поиск",
+    "intent": "init_searching",
+    "intent_prediction": {
+      "name": "init_new_search",
+      "confidence": 0.7589056491851807
+    }
+  },
+  {
+    "text": "мне нужна помощь с поиском сотрудника",
+    "intent": "init_new_search",
+    "intent_prediction": {
+      "name": "telling_experience",
+      "confidence": 0.6696488261222839
+    }
+  },
+  {
+    "text": "покажи поисковый урл",
+    "intent": "ask_url",
+    "intent_prediction": {
+      "name": "thanks",
+      "confidence": 0.2337205708026886
+    }
+  }
+]

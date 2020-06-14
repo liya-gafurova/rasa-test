@@ -1,0 +1,34 @@
+[
+  {
+    "text": "а что если поискать с опытом не только в java но и C",
+    "intent": "telling_hardskills",
+    "intent_prediction": {
+      "name": "init_new_search",
+      "confidence": 0.2633572220802307
+    }
+  },
+  {
+    "text": "english, advanced",
+    "intent": "telling_language_needed",
+    "intent_prediction": {
+      "name": "telling_hardskills",
+      "confidence": 0.6202130317687988
+    }
+  },
+  {
+    "text": "найти",
+    "intent": "init_searching",
+    "intent_prediction": {
+      "name": "greeting",
+      "confidence": 0.3823377192020416
+    }
+  },
+  {
+    "text": "мне нужен новый специалист",
+    "intent": "init_new_search",
+    "intent_prediction": {
+      "name": "ask_url",
+      "confidence": 0.2656649947166443
+    }
+  }
+]

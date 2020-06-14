@@ -1,0 +1,66 @@
+[
+  {
+    "text": "yo",
+    "intent": "greeting",
+    "intent_prediction": {
+      "name": "telling_hardskills",
+      "confidence": 0.4990367293357849
+    }
+  },
+  {
+    "text": "привет",
+    "intent": "greeting",
+    "intent_prediction": {
+      "name": "init_new_search",
+      "confidence": 0.18375983834266663
+    }
+  },
+  {
+    "text": "програмист java москва 5  опыта",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "telling_experience",
+      "confidence": 0.49338865280151367
+    }
+  },
+  {
+    "text": "санкт-петербург",
+    "intent": "telling_location",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.4259839355945587
+    }
+  },
+  {
+    "text": "знание английского привестсвуется",
+    "intent": "telling_language_needed",
+    "intent_prediction": {
+      "name": "telling_hardskills",
+      "confidence": 0.25657933950424194
+    }
+  },
+  {
+    "text": "поиск",
+    "intent": "init_searching",
+    "intent_prediction": {
+      "name": "detaieled_search",
+      "confidence": 0.35776200890541077
+    }
+  },
+  {
+    "text": "мне нужна помощь с поиском сотрудника",
+    "intent": "init_new_search",
+    "intent_prediction": {
+      "name": "telling_experience",
+      "confidence": 0.30766597390174866
+    }
+  },
+  {
+    "text": "покажи поисковый урл",
+    "intent": "ask_url",
+    "intent_prediction": {
+      "name": "init_searching",
+      "confidence": 0.277177095413208
+    }
+  }
+]

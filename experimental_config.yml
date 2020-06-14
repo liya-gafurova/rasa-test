@@ -1,0 +1,34 @@
+# Configuration for Rasa NLU.
+# https://rasa.com/docs/rasa/nlu/components/
+language: en
+pipeline:
+  - name: HFTransformersNLP
+    # Name of the language model to use
+    model_name: "bert"
+    # Pre-Trained weights to be loaded
+    model_weights: "bert-base-multilingual-cased"
+
+    # An optional path to a specific directory to download and cache the pre-trained model weights.
+    # The `default` cache_dir is the same as https://huggingface.co/transformers/serialization.html#cache-directory .
+    cache_dir: ./cache
+  - name: "LanguageModelTokenizer"
+      # Flag to check whether to split intents
+    "intent_tokenization_flag": False
+      # Symbol on which intent should be split
+    "intent_split_symbol": "_"
+  - name: "LanguageModelFeaturizer"
+
+  - name: DIETClassifier
+    batch_strategy: sequence
+    epochs: 100
+  - name: ResponseSelector
+    epochs: 100
+
+# Configuration for Rasa Core.
+# https://rasa.com/docs/rasa/core/policies/
+policies:
+  - name: MemoizationPolicy
+  - name: TEDPolicy
+    max_history: 5
+    epochs: 100
+  - name: MappingPolicy

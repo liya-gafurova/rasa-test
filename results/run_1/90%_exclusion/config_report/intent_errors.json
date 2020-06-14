@@ -1,0 +1,146 @@
+[
+  {
+    "text": "привет, я Маша",
+    "intent": "greeting",
+    "intent_prediction": {
+      "name": "telling_language_needed",
+      "confidence": 0.29207873344421387
+    }
+  },
+  {
+    "text": "привет",
+    "intent": "greeting",
+    "intent_prediction": {
+      "name": "ask_url",
+      "confidence": 0.2381587028503418
+    }
+  },
+  {
+    "text": "разработчик, фронтенд, react, redux, REST, омск, можно бех опыта",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "telling_language_needed",
+      "confidence": 0.35681474208831787
+    }
+  },
+  {
+    "text": "дата-саентист ml nlp python pandas cv желателен опыт английский омск можно с релокацией",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "telling_language_needed",
+      "confidence": 0.6232561469078064
+    }
+  },
+  {
+    "text": "java разработчик на самом то деле",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "init_new_search",
+      "confidence": 0.4509314298629761
+    }
+  },
+  {
+    "text": "омск",
+    "intent": "telling_location",
+    "intent_prediction": {
+      "name": "greeting",
+      "confidence": 0.47050976753234863
+    }
+  },
+  {
+    "text": "Омск",
+    "intent": "telling_location",
+    "intent_prediction": {
+      "name": "greeting",
+      "confidence": 0.33552226424217224
+    }
+  },
+  {
+    "text": "Java",
+    "intent": "telling_hardskills",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.540124237537384
+    }
+  },
+  {
+    "text": "а что если поискать с опытом не только в java но и C",
+    "intent": "telling_hardskills",
+    "intent_prediction": {
+      "name": "telling_language_needed",
+      "confidence": 0.399297833442688
+    }
+  },
+  {
+    "text": "python, django, djangoREST, mongo DB",
+    "intent": "telling_hardskills",
+    "intent_prediction": {
+      "name": "telling_language_needed",
+      "confidence": 0.3929661810398102
+    }
+  },
+  {
+    "text": "5 лет опыта",
+    "intent": "telling_experience",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.6241347789764404
+    }
+  },
+  {
+    "text": "программист java москва 5 лет опыта",
+    "intent": "telling_experience",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.98896723985672
+    }
+  },
+  {
+    "text": "можно опыта",
+    "intent": "telling_experience",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.8156217932701111
+    }
+  },
+  {
+    "text": "опыт не не обязетален",
+    "intent": "telling_experience",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.34545862674713135
+    }
+  },
+  {
+    "text": "25-50 тыс руб",
+    "intent": "telling_max_possible_salary",
+    "intent_prediction": {
+      "name": "telling_experience",
+      "confidence": 0.9272071719169617
+    }
+  },
+  {
+    "text": "покажи варианты",
+    "intent": "init_searching",
+    "intent_prediction": {
+      "name": "init_new_search",
+      "confidence": 0.3131273686885834
+    }
+  },
+  {
+    "text": "найти",
+    "intent": "init_searching",
+    "intent_prediction": {
+      "name": "telling_hardskills",
+      "confidence": 0.18629395961761475
+    }
+  },
+  {
+    "text": "подробно",
+    "intent": "detaieled_search",
+    "intent_prediction": {
+      "name": "thanks",
+      "confidence": 0.36322882771492004
+    }
+  }
+]

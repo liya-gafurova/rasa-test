@@ -1,0 +1,82 @@
+[
+  {
+    "text": "привет, я Маша",
+    "intent": "greeting",
+    "intent_prediction": {
+      "name": "telling_hardskills",
+      "confidence": 0.21206475794315338
+    }
+  },
+  {
+    "text": "Java",
+    "intent": "telling_hardskills",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.5006497502326965
+    }
+  },
+  {
+    "text": "а что если поискать с опытом не только в java но и C",
+    "intent": "telling_hardskills",
+    "intent_prediction": {
+      "name": "init_searching",
+      "confidence": 0.29849016666412354
+    }
+  },
+  {
+    "text": "python, django, djangoREST, mongo DB",
+    "intent": "telling_hardskills",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.5462924242019653
+    }
+  },
+  {
+    "text": "5 лет опыта",
+    "intent": "telling_experience",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.21623025834560394
+    }
+  },
+  {
+    "text": "программист java москва 5 лет опыта",
+    "intent": "telling_experience",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.8968032002449036
+    }
+  },
+  {
+    "text": "можно опыта",
+    "intent": "telling_experience",
+    "intent_prediction": {
+      "name": "init_searching",
+      "confidence": 0.21574421226978302
+    }
+  },
+  {
+    "text": "опыт не не обязетален",
+    "intent": "telling_experience",
+    "intent_prediction": {
+      "name": "init_new_search",
+      "confidence": 0.2912706434726715
+    }
+  },
+  {
+    "text": "покажи варианты",
+    "intent": "init_searching",
+    "intent_prediction": {
+      "name": "detaieled_search",
+      "confidence": 0.20534676313400269
+    }
+  },
+  {
+    "text": "подробно",
+    "intent": "detaieled_search",
+    "intent_prediction": {
+      "name": "init_searching",
+      "confidence": 0.2881677746772766
+    }
+  }
+]

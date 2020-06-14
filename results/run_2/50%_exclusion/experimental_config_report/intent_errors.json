@@ -1,0 +1,50 @@
+[
+  {
+    "text": "yo",
+    "intent": "greeting",
+    "intent_prediction": {
+      "name": "telling_hardskills",
+      "confidence": 0.38158729672431946
+    }
+  },
+  {
+    "text": "английский в совершенстве",
+    "intent": "telling_language_needed",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.17744220793247223
+    }
+  },
+  {
+    "text": "найди",
+    "intent": "init_searching",
+    "intent_prediction": {
+      "name": "telling_location",
+      "confidence": 0.16993588209152222
+    }
+  },
+  {
+    "text": "поиск",
+    "intent": "init_searching",
+    "intent_prediction": {
+      "name": "greeting",
+      "confidence": 0.15825492143630981
+    }
+  },
+  {
+    "text": "мне нужна помощь с поиском сотрудника",
+    "intent": "init_new_search",
+    "intent_prediction": {
+      "name": "telling_experience",
+      "confidence": 0.480880469083786
+    }
+  },
+  {
+    "text": "спасибо, мне подходит",
+    "intent": "thanks",
+    "intent_prediction": {
+      "name": "telling_experience",
+      "confidence": 0.20277222990989685
+    }
+  }
+]

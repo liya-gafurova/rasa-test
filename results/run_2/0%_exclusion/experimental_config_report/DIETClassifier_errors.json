@@ -1,0 +1,172 @@
+[
+  {
+    "text": "yo",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "language",
+        "start": 0,
+        "end": 2,
+        "value": "yo",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "разработчик, фронтенд, react, redux, REST, омск, можно бех опыта",
+    "entities": [
+      {
+        "start": 0,
+        "end": 11,
+        "value": "разработчик",
+        "entity": "profession"
+      },
+      {
+        "start": 13,
+        "end": 41,
+        "value": "фронтенд, react, redux, REST",
+        "entity": "hardskills"
+      },
+      {
+        "start": 43,
+        "end": 47,
+        "value": "омск",
+        "entity": "location"
+      },
+      {
+        "start": 49,
+        "end": 64,
+        "value": "можно бех опыта",
+        "entity": "experience"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "profession",
+        "start": 0,
+        "end": 11,
+        "value": "разработчик",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "hardskills",
+        "start": 30,
+        "end": 35,
+        "value": "redux",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "location",
+        "start": 43,
+        "end": 47,
+        "value": "омск",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "experience",
+        "start": 59,
+        "end": 64,
+        "value": "опыта",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "и java и C#",
+    "entities": [
+      {
+        "start": 0,
+        "end": 11,
+        "value": "и java и C#",
+        "entity": "hardskills"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "hardskills",
+        "start": 2,
+        "end": 6,
+        "value": "java",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "hardskills",
+        "start": 9,
+        "end": 11,
+        "value": "C#",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "опыт не не обязетален",
+    "entities": [
+      {
+        "start": 0,
+        "end": 21,
+        "value": "опыт не не обязетален",
+        "entity": "experience"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "experience",
+        "start": 0,
+        "end": 4,
+        "value": "опыт",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "английский в совершенстве",
+    "entities": [
+      {
+        "start": 0,
+        "end": 10,
+        "value": "английский",
+        "entity": "language"
+      },
+      {
+        "start": 11,
+        "end": 25,
+        "value": "в совершенстве",
+        "entity": "language_level"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "language",
+        "start": 0,
+        "end": 10,
+        "value": "английский",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "location",
+        "start": 13,
+        "end": 25,
+        "value": "совершенстве",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "знание английского привестсвуется",
+    "entities": [
+      {
+        "start": 0,
+        "end": 18,
+        "value": "знание английского",
+        "entity": "language"
+      },
+      {
+        "start": 19,
+        "end": 33,
+        "value": "привестсвуется",
+        "entity": "language_level"
+      }
+    ],
+    "predicted_entities": []
+  }
+]

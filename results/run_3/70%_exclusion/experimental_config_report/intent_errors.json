@@ -1,0 +1,98 @@
+[
+  {
+    "text": "уже здоровались",
+    "intent": "greeting",
+    "intent_prediction": {
+      "name": "thanks",
+      "confidence": 0.29424530267715454
+    }
+  },
+  {
+    "text": "привет, я хочу найти сотрудника",
+    "intent": "greeting",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.5057907104492188
+    }
+  },
+  {
+    "text": "Нужен только в Омске",
+    "intent": "telling_location",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.4403170049190521
+    }
+  },
+  {
+    "text": "PHP есть",
+    "intent": "telling_hardskills",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.5546244382858276
+    }
+  },
+  {
+    "text": "программист java москва 5 лет  опыта",
+    "intent": "telling_experience",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.921346127986908
+    }
+  },
+  {
+    "text": "english, advanced",
+    "intent": "telling_language_needed",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.2066841423511505
+    }
+  },
+  {
+    "text": "английский язык желателен",
+    "intent": "telling_language_needed",
+    "intent_prediction": {
+      "name": "telling_experience",
+      "confidence": 0.26318156719207764
+    }
+  },
+  {
+    "text": "показать",
+    "intent": "init_searching",
+    "intent_prediction": {
+      "name": "detaieled_search",
+      "confidence": 0.18848682940006256
+    }
+  },
+  {
+    "text": "найти",
+    "intent": "init_searching",
+    "intent_prediction": {
+      "name": "greeting",
+      "confidence": 0.2819560468196869
+    }
+  },
+  {
+    "text": "мне нужна помощь с поиском сотрудника",
+    "intent": "init_new_search",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.37927788496017456
+    }
+  },
+  {
+    "text": "подробно",
+    "intent": "detaieled_search",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.24371978640556335
+    }
+  },
+  {
+    "text": "спс",
+    "intent": "thanks",
+    "intent_prediction": {
+      "name": "telling_language_needed",
+      "confidence": 0.1502130627632141
+    }
+  }
+]

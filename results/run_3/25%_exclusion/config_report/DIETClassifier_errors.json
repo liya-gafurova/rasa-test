@@ -1,0 +1,186 @@
+[
+  {
+    "text": "разработчик, фронтенд, react, redux, REST, омск, можно бех опыта",
+    "entities": [
+      {
+        "start": 0,
+        "end": 11,
+        "value": "разработчик",
+        "entity": "profession"
+      },
+      {
+        "start": 13,
+        "end": 41,
+        "value": "фронтенд, react, redux, REST",
+        "entity": "hardskills"
+      },
+      {
+        "start": 43,
+        "end": 47,
+        "value": "омск",
+        "entity": "location"
+      },
+      {
+        "start": 49,
+        "end": 64,
+        "value": "можно бех опыта",
+        "entity": "experience"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "profession",
+        "start": 0,
+        "end": 11,
+        "value": "разработчик",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "hardskills",
+        "start": 23,
+        "end": 41,
+        "value": "react, redux, REST",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "location",
+        "start": 43,
+        "end": 47,
+        "value": "омск",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "experience",
+        "start": 55,
+        "end": 64,
+        "value": "бех опыта",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "PHP есть",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "hardskills",
+        "start": 0,
+        "end": 3,
+        "value": "PHP",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "python, ml, pandas, математика",
+    "entities": [
+      {
+        "start": 0,
+        "end": 30,
+        "value": "python, ml, pandas, математика",
+        "entity": "hardskills"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "hardskills",
+        "start": 0,
+        "end": 18,
+        "value": "python, ml, pandas",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "1-3 года опыта",
+    "entities": [
+      {
+        "start": 0,
+        "end": 14,
+        "value": "1-3 года опыта",
+        "entity": "experience"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "max_salary_for_position",
+        "start": 0,
+        "end": 14,
+        "value": "1-3 года опыта",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "более 25 тыс. руб",
+    "entities": [
+      {
+        "start": 0,
+        "end": 17,
+        "value": "более 25 тыс. руб",
+        "entity": "max_salary_for_position"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "experience",
+        "start": 0,
+        "end": 17,
+        "value": "более 25 тыс. руб",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "english, advanced",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "value": "english",
+        "entity": "language"
+      },
+      {
+        "start": 9,
+        "end": 17,
+        "value": "advanced",
+        "entity": "language_level"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "hardskills",
+        "start": 0,
+        "end": 17,
+        "value": "english, advanced",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "английский язык желателен",
+    "entities": [
+      {
+        "start": 0,
+        "end": 15,
+        "value": "английский язык",
+        "entity": "language"
+      },
+      {
+        "start": 16,
+        "end": 25,
+        "value": "желателен",
+        "entity": "language_level"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "language",
+        "start": 0,
+        "end": 10,
+        "value": "английский",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  }
+]

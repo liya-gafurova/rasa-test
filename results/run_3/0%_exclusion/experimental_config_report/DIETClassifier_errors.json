@@ -1,0 +1,171 @@
+[
+  {
+    "text": "Только в Омске C#",
+    "entities": [
+      {
+        "start": 9,
+        "end": 14,
+        "value": "Омске",
+        "entity": "location"
+      },
+      {
+        "start": 14,
+        "end": 17,
+        "value": " C#",
+        "entity": "hardskills"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "location",
+        "start": 9,
+        "end": 14,
+        "value": "Омске",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "разработчик, фронтенд, react, redux, REST, омск, можно бех опыта",
+    "entities": [
+      {
+        "start": 0,
+        "end": 11,
+        "value": "разработчик",
+        "entity": "profession"
+      },
+      {
+        "start": 13,
+        "end": 41,
+        "value": "фронтенд, react, redux, REST",
+        "entity": "hardskills"
+      },
+      {
+        "start": 43,
+        "end": 47,
+        "value": "омск",
+        "entity": "location"
+      },
+      {
+        "start": 49,
+        "end": 64,
+        "value": "можно бех опыта",
+        "entity": "experience"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "profession",
+        "start": 0,
+        "end": 11,
+        "value": "разработчик",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "hardskills",
+        "start": 23,
+        "end": 28,
+        "value": "react",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "hardskills",
+        "start": 30,
+        "end": 35,
+        "value": "redux",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "experience",
+        "start": 59,
+        "end": 64,
+        "value": "опыта",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "программист java самара",
+    "entities": [
+      {
+        "start": 0,
+        "end": 11,
+        "value": "программист",
+        "entity": "profession"
+      },
+      {
+        "start": 12,
+        "end": 16,
+        "value": "java",
+        "entity": "hardskills"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "profession",
+        "start": 0,
+        "end": 11,
+        "value": "программист",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "hardskills",
+        "start": 12,
+        "end": 23,
+        "value": "java самара",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "english, advanced",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "value": "english",
+        "entity": "language"
+      },
+      {
+        "start": 9,
+        "end": 17,
+        "value": "advanced",
+        "entity": "language_level"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "английский язык желателен",
+    "entities": [
+      {
+        "start": 0,
+        "end": 15,
+        "value": "английский язык",
+        "entity": "language"
+      },
+      {
+        "start": 16,
+        "end": 25,
+        "value": "желателен",
+        "entity": "language_level"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "language",
+        "start": 0,
+        "end": 10,
+        "value": "английский",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "experience",
+        "start": 16,
+        "end": 25,
+        "value": "желателен",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  }
+]

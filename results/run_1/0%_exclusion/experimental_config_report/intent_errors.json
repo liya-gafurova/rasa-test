@@ -1,0 +1,66 @@
+[
+  {
+    "text": "привет, я Маша",
+    "intent": "greeting",
+    "intent_prediction": {
+      "name": "telling_hardskills",
+      "confidence": 0.4265962243080139
+    }
+  },
+  {
+    "text": "привет",
+    "intent": "greeting",
+    "intent_prediction": {
+      "name": "telling_max_possible_salary",
+      "confidence": 0.1459415704011917
+    }
+  },
+  {
+    "text": "программист java москва 5 лет опыта",
+    "intent": "telling_experience",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.6447128653526306
+    }
+  },
+  {
+    "text": "english, advanced",
+    "intent": "telling_language_needed",
+    "intent_prediction": {
+      "name": "detaieled_search",
+      "confidence": 0.294805645942688
+    }
+  },
+  {
+    "text": "покажи варианты",
+    "intent": "init_searching",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.19602526724338531
+    }
+  },
+  {
+    "text": "найти",
+    "intent": "init_searching",
+    "intent_prediction": {
+      "name": "detaieled_search",
+      "confidence": 0.2394987940788269
+    }
+  },
+  {
+    "text": "мне нужен новый специалист",
+    "intent": "init_new_search",
+    "intent_prediction": {
+      "name": "thanks",
+      "confidence": 0.277643084526062
+    }
+  },
+  {
+    "text": "Покажи поисковый урл",
+    "intent": "ask_url",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.2359633594751358
+    }
+  }
+]

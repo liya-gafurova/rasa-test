@@ -1,0 +1,120 @@
+{
+  "thanks": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 1,
+    "confused_with": {
+      "greeting": 1
+    }
+  },
+  "telling_language_needed": {
+    "precision": 1.0,
+    "recall": 0.5,
+    "f1-score": 0.6666666666666666,
+    "support": 2,
+    "confused_with": {
+      "inform": 1
+    }
+  },
+  "init_new_search": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 1,
+    "confused_with": {
+      "ask_url": 1
+    }
+  },
+  "inform": {
+    "precision": 0.5454545454545454,
+    "recall": 0.8571428571428571,
+    "f1-score": 0.6666666666666665,
+    "support": 7,
+    "confused_with": {
+      "telling_location": 1
+    }
+  },
+  "telling_experience": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 4,
+    "confused_with": {
+      "telling_max_possible_salary": 3,
+      "inform": 1
+    }
+  },
+  "detaieled_search": {
+    "precision": 0.5,
+    "recall": 0.5,
+    "f1-score": 0.5,
+    "support": 2,
+    "confused_with": {
+      "init_searching": 1
+    }
+  },
+  "ask_url": {
+    "precision": 0.6666666666666666,
+    "recall": 1.0,
+    "f1-score": 0.8,
+    "support": 2,
+    "confused_with": {}
+  },
+  "telling_location": {
+    "precision": 0.6666666666666666,
+    "recall": 1.0,
+    "f1-score": 0.8,
+    "support": 2,
+    "confused_with": {}
+  },
+  "telling_max_possible_salary": {
+    "precision": 0.3333333333333333,
+    "recall": 1.0,
+    "f1-score": 0.5,
+    "support": 2,
+    "confused_with": {}
+  },
+  "init_searching": {
+    "precision": 0.5,
+    "recall": 0.5,
+    "f1-score": 0.5,
+    "support": 2,
+    "confused_with": {
+      "init_new_search": 1
+    }
+  },
+  "greeting": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 2,
+    "confused_with": {
+      "inform": 1,
+      "detaieled_search": 1
+    }
+  },
+  "telling_hardskills": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 3,
+    "confused_with": {
+      "inform": 2,
+      "telling_max_possible_salary": 1
+    }
+  },
+  "accuracy": 0.5,
+  "macro avg": {
+    "precision": 0.35101010101010105,
+    "recall": 0.44642857142857145,
+    "f1-score": 0.36944444444444446,
+    "support": 30
+  },
+  "weighted avg": {
+    "precision": 0.37171717171717167,
+    "recall": 0.5,
+    "f1-score": 0.4066666666666666,
+    "support": 30
+  }
+}

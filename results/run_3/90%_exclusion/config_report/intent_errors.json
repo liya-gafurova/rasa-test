@@ -1,0 +1,122 @@
+[
+  {
+    "text": "уже здоровались",
+    "intent": "greeting",
+    "intent_prediction": {
+      "name": "detaieled_search",
+      "confidence": 0.3091414272785187
+    }
+  },
+  {
+    "text": "привет, я хочу найти сотрудника",
+    "intent": "greeting",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.19273626804351807
+    }
+  },
+  {
+    "text": "Только в Омске C#",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "telling_location",
+      "confidence": 0.7089279294013977
+    }
+  },
+  {
+    "text": "PHP есть",
+    "intent": "telling_hardskills",
+    "intent_prediction": {
+      "name": "telling_max_possible_salary",
+      "confidence": 0.19714759290218353
+    }
+  },
+  {
+    "text": "python, ml, pandas, математика",
+    "intent": "telling_hardskills",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.34251514077186584
+    }
+  },
+  {
+    "text": "Java",
+    "intent": "telling_hardskills",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.8140186667442322
+    }
+  },
+  {
+    "text": "1-3 года опыта",
+    "intent": "telling_experience",
+    "intent_prediction": {
+      "name": "telling_max_possible_salary",
+      "confidence": 0.9593675136566162
+    }
+  },
+  {
+    "text": "программист java москва 5 лет  опыта",
+    "intent": "telling_experience",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.9404217004776001
+    }
+  },
+  {
+    "text": "3+ лет опыта",
+    "intent": "telling_experience",
+    "intent_prediction": {
+      "name": "telling_max_possible_salary",
+      "confidence": 0.8743191361427307
+    }
+  },
+  {
+    "text": "5 лет опыта",
+    "intent": "telling_experience",
+    "intent_prediction": {
+      "name": "telling_max_possible_salary",
+      "confidence": 0.8743191361427307
+    }
+  },
+  {
+    "text": "english, advanced",
+    "intent": "telling_language_needed",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.5263751149177551
+    }
+  },
+  {
+    "text": "найти",
+    "intent": "init_searching",
+    "intent_prediction": {
+      "name": "init_new_search",
+      "confidence": 0.22329270839691162
+    }
+  },
+  {
+    "text": "мне нужна помощь с поиском сотрудника",
+    "intent": "init_new_search",
+    "intent_prediction": {
+      "name": "ask_url",
+      "confidence": 0.2841900587081909
+    }
+  },
+  {
+    "text": "подробно",
+    "intent": "detaieled_search",
+    "intent_prediction": {
+      "name": "init_searching",
+      "confidence": 0.30966052412986755
+    }
+  },
+  {
+    "text": "спс",
+    "intent": "thanks",
+    "intent_prediction": {
+      "name": "greeting",
+      "confidence": 0.2461995780467987
+    }
+  }
+]
